@@ -1,0 +1,33 @@
+.cap{
+    background-color: #1abc9c;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+}
+p{
+    font-size: 19px;
+}
+h2{
+    font-size: 44px;
+}
+i {
+    position: relative;
+}
+i::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    top: 30%;
+    left: 30px;
+    background-color: white;
+}
+.dive {
+    width: 100px;
+    border-bottom: solid white 5px;
+    position: absolute;
+    left: 41%;
+    margin-top: 10px;
+}

@@ -1,0 +1,43 @@
+.caption {
+    background-color: #1abc9c;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+h2{
+    font-size: 44px;
+    font-weight: 900;
+}
+i {
+    position: relative;
+}
+i::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    top: 30%;
+    left: 30px;
+    background-color: white;
+}
+.dive {
+    width: 100px;
+    border-bottom: solid white 5px;
+    position: absolute;
+    left: 41%;
+    margin-top: 10px;
+}
+
+/* i::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    top: 45%;
+    right: 30px;
+    background-color: white;
+} */
